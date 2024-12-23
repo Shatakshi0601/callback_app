@@ -1,10 +1,8 @@
 async function myFunction() {
     try {
-      let result = 10 / 5;
-      if (result== 2) {
-        alert("Division by 5 results in 2");
-    } else {
-        alert(result); 
+      let result = 1+1;
+      if (result !== 3) {
+        throw new Error("Sum is not 3");
     }
 
     }  catch (error) {
