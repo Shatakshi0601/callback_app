@@ -1,8 +1,8 @@
 async function myFunction() {
     try {
-      let result = 10 / 0;
-      if (result== 0) {
-        alert("Division by zero results in Infinity");
+      let result = 10 / 5;
+      if (result== 2) {
+        alert("Division by 5 results in 2");
     } else {
         alert(result); 
     }
